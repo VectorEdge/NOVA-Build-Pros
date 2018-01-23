@@ -67,4 +67,4 @@ Disallow: sunrooms?lightbox=dataItem-j58de57n1
 Disallow: sunrooms?lightbox=dataItem-j58de57s
 Disallow: sunrooms?lightbox=dataItem-j58de57s2
 Disallow: sunrooms?lightbox=dataItem-j58de57t2
-Sitemap: http://novabuildpros.com/sitemap.xml
+Sitemap: https://novabuildpros.com/sitemap.xml
