@@ -3,5 +3,15 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^ https://novabuildpros.com%{REQUEST_URI} [L,NE,R=301]
 
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
 
 Redirect 301 /sunrooms?lightbox=dataItem-j58de57n1 https://novabuildpros.com/sunrooms.html
