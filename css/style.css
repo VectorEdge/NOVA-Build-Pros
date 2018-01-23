@@ -1985,7 +1985,7 @@ h4 {
 .site-branding {
 	position: relative;
 	z-index: 1;
-	padding-top: 40px;
+	padding-top: 5px;
 	padding-right: 0px;
 	padding-left: 15px;
 	padding-bottom: 10px;
@@ -2261,11 +2261,7 @@ Header 01, 07, 08
   .header08 #site-navigation.headroom--not-top .menu > li > a {
     padding: 35px 0;
   }
-  .header01 #site-navigation.headroom--not-top .site-branding,
-  .header07 #site-navigation.headroom--not-top .site-branding,
-  .header08 #site-navigation.headroom--not-top .site-branding {
-    padding: 20px 0 20px 15px;
-  }
+
 }
 /*--------------------------------------------------------------
 Header 02, 04, 05, 06, 09
