@@ -1356,8 +1356,8 @@ body.boxed {
 }
 .call-for-action {
 	margin-bottom: 0px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #ed7d31;
 }
 .section-title {
@@ -1447,7 +1447,7 @@ img.alignleft {
 }
 
 .title-section {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -1474,7 +1474,10 @@ img.alignleft {
 }
 
 .features-home-page {
-    padding: 60px 0 ;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
     text-align: center;
     background: #f7f7f7;
 }

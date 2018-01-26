@@ -1986,7 +1986,7 @@ h4 {
 	position: relative;
 	z-index: 1;
 	padding-top: 5px;
-	padding-right: 0px;
+	padding-right: 15px;
 	padding-left: 15px;
 	padding-bottom: 10px;
 }
@@ -4859,7 +4859,10 @@ footer p.copyright {
 }
 
 .services-home-page {
-    padding: 60px 0;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
 }
 
 .projects-section .title-section.alt-title {
