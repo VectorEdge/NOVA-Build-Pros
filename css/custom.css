@@ -1360,6 +1360,14 @@ body.boxed {
 	padding-bottom: 10px;
 	background-color: #ed7d31;
 }
+
+.call-for-action-dropin {
+    text-align: right;
+	margin-bottom: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ed7d31;
+}
 .section-title {
 	font-size: 26px;
 	color: #111111;
@@ -1394,7 +1402,7 @@ body.boxed {
 	background-repeat: no-repeat;
 }
 .parallax.bg-1 {
-	background-image: url(../images/background/parallax_1.jpg);
+    background-image: url(../images/1200x450.png);
 }
 .testimonials .row {
 	overflow-x: hidden;
@@ -1418,14 +1426,22 @@ img.alignleft {
     margin: 5px 20px 5px 0;
 }
 .call-for-action-text {
-	font-size: 24px;
-	color: #ffffff;
-	text-align: left;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 0px;
 }
 .parallax-text {
 	font-size: 24px;
 	color: #ffffff;
 	text-align: center;
+}
+
+.parallax-text-cta {
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+    padding-bottom: 20px;
 }
 .main {
 	padding-bottom: 30px;
@@ -1480,4 +1496,8 @@ img.alignleft {
     padding-bottom: 20px;
     text-align: center;
     background: #f7f7f7;
+}
+
+.custom_heading-dropin {
+    text-align: center;    
 }
