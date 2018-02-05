@@ -572,6 +572,8 @@ h4 {
 .quote3 .sub {
   font-style: italic;
 }
+
+
 @media (min-width: 992px) {
   .get-quote .btn {
     margin-top: 50px;
@@ -4471,6 +4473,7 @@ ul.style1 li:before {
   left: 0;
   width: auto;
   height: auto;
+    
 }
 .snap-drawer {
   position: absolute;
