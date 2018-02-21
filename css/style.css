@@ -104,6 +104,11 @@ a {
   text-decoration: none;
   color: #ed7d31;
 }
+
+.home-advisor:link {
+  text-align: center;
+}
+
 input:focus, textarea:focus {
   outline: none;
 }
